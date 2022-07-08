@@ -111,3 +111,8 @@ func +=(leftNumber: inout Int, rightNumber: Int) {
     // code here
 }
 
+let driving = {
+    print("I'm driving in my car")
+}
+
+driving()
