@@ -133,4 +133,4 @@ var a = "a"
 var b = a
 
 b = "ddd"
-print(b)
+print(a)
