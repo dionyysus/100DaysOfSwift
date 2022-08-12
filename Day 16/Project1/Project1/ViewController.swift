@@ -33,7 +33,8 @@ class ViewController: UITableViewController {
         print(pictures)
         
     }
-
+     
+  
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return pictures.count
     }
