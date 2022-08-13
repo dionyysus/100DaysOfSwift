@@ -20,6 +20,7 @@ class DetailViewController: UIViewController {
         if let imageToLoad = selectedImage {
             ImageView.image = UIImage(named: imageToLoad)
         }
+        
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
