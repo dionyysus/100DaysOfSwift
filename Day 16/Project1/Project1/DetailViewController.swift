@@ -7,6 +7,7 @@
 
 import UIKit
 
+
 class DetailViewController: UIViewController {
     
     @IBOutlet var ImageView: UIImageView!
