@@ -54,7 +54,7 @@ class ViewController: UIViewController {
             title = "Correct"
             score  += 1
             message = "Your score is \(score)"
-        }else{
+        }else{.
             title = "Wrong"
             score -= 1
             message = "That is the flag of \(countries[sender.tag].uppercased())"
