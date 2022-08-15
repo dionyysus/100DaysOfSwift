@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="k3B-pV-MJJ">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +10,78 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Project2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ucu-Yo-mwx">
+                                <rect key="frame" x="95" y="100" width="224" height="114"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="us"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sfO-yb-nE3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZGQ-ec-yV3">
+                                <rect key="frame" x="95" y="244" width="224" height="114"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="us"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q47-9M-8sY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ST-JF-9T9">
+                                <rect key="frame" x="95" y="388" width="224" height="114"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="us"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dd8-2x-1B8"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.55790168046951294" green="0.6491054892539978" blue="0.9158942699432373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ZGQ-ec-yV3" firstAttribute="top" secondItem="ucu-Yo-mwx" secondAttribute="bottom" constant="30" id="4zy-Je-p6G"/>
+                            <constraint firstItem="ucu-Yo-mwx" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="9HE-6e-Y2r"/>
+                            <constraint firstItem="5ST-JF-9T9" firstAttribute="centerX" secondItem="ZGQ-ec-yV3" secondAttribute="centerX" id="Flv-rv-2w5"/>
+                            <constraint firstItem="ucu-Yo-mwx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="Shz-j1-KUf"/>
+                            <constraint firstItem="5ST-JF-9T9" firstAttribute="top" secondItem="ZGQ-ec-yV3" secondAttribute="bottom" constant="30" id="ejZ-Xk-Uzs"/>
+                            <constraint firstItem="ZGQ-ec-yV3" firstAttribute="centerX" secondItem="ucu-Yo-mwx" secondAttribute="centerX" id="nvq-fa-wYf"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="8OR-gN-G3U"/>
+                    <connections>
+                        <outlet property="button1" destination="ucu-Yo-mwx" id="y90-ev-UZc"/>
+                        <outlet property="button2" destination="ZGQ-ec-yV3" id="2zt-ID-pSu"/>
+                        <outlet property="button3" destination="5ST-JF-9T9" id="Cja-YB-JSJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="893" y="57"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="uB2-V6-6ER">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="k3B-pV-MJJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="VPG-0z-Mba">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="eYB-gB-UjN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gMr-jN-2Ls" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-122" y="57"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="us" width="200" height="100"/>
+    </resources>
 </document>
