@@ -12,23 +12,34 @@ class ViewController: UIViewController {
     @IBOutlet var button1: UIButton!
     @IBOutlet var button2: UIButton!
     @IBOutlet var button3: UIButton!
+    @IBOutlet var optionsContainer: UIVisualEffectView!
+    @IBOutlet var scoreLabel: UILabel!
     
     var countries = [String]()
-    var score = 0
     var correctAnswer = 0
+    var score = 0 {
+        didSet{
+            
+            scoreLabel.text = "Score: \(score)"
+            
+        }
+    }
+      
     override func viewDidLoad() {
         
         super.viewDidLoad()
 
         countries += ["estonia", "france", "germany", "ireland", "italy", "monaco", "nigeria", "poland", "russia", "spain", "uk", "us"]
-        button1.layer.borderWidth = 1
-        button2.layer.borderWidth = 1
-        button3.layer.borderWidth = 1
         
+        button1.layer.borderWidth = 1
         button1.layer.borderColor = UIColor.lightGray.cgColor
-        button2.layer.borderColor = UIColor.lightGray.cgColor
-        button3.layer.borderColor = UIColor.lightGray.cgColor
+        button1.layer.cornerRadius = 16
+        button1.clipsToBounds = true
+        
         askQuestion()
+        
+        optionsContainer.layer.cornerRadius = 32
+        optionsContainer.clipsToBounds = true
         
         
        
@@ -54,7 +65,7 @@ class ViewController: UIViewController {
             title = "Correct"
             score  += 1
             message = "Your score is \(score)"
-        }else{.
+        }else{
             title = "Wrong"
             score -= 1
             message = "That is the flag of \(countries[sender.tag].uppercased())"
@@ -65,9 +76,6 @@ class ViewController: UIViewController {
         present(ac, animated: true)
     }
     
-    func endGame(){
-        let title = "Game Over"
-        //let message = "Your score is \(score)\(numberOfQuestions)"
-    }
+    
 }
 
