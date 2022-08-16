@@ -20,7 +20,7 @@
             landmarkType = "3">
             <Locations>
                <Location
-                  uuid = "763F7EC2-05EC-475B-9C26-4CF971472297 - 78f326393b978ddb"
+                  uuid = "763F7EC2-05EC-475B-9C26-4CF971472297 - 78f326393b978dfa"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -30,12 +30,12 @@
                   urlString = "file:///Users/gizemcoskun/Creative%20Cloud%20Files/SwiftApps/100-Days-Of-Swift/Project%202/Project2/Project2/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
                   offsetFromSymbolStart = "88">
                </Location>
                <Location
-                  uuid = "763F7EC2-05EC-475B-9C26-4CF971472297 - e7409b7a9e7a700f"
+                  uuid = "763F7EC2-05EC-475B-9C26-4CF971472297 - e7409b7a9e7a702e"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -45,16 +45,124 @@
                   urlString = "file:///Users/gizemcoskun/Creative%20Cloud%20Files/SwiftApps/100-Days-Of-Swift/Project%202/Project2/Project2/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
                   offsetFromSymbolStart = "112">
                </Location>
                <Location
-                  uuid = "763F7EC2-05EC-475B-9C26-4CF971472297 - 6f9bab0aca3d000c"
+                  uuid = "763F7EC2-05EC-475B-9C26-4CF971472297 - 6f9bab0aca3d002d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "Project2.ViewController.countries.modify : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "Project2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gizemcoskun/Creative%20Cloud%20Files/SwiftApps/100-Days-Of-Swift/Project%202/Project2/Project2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "763F7EC2-05EC-475B-9C26-4CF971472297 - a3532e9e6b9991d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project2.ViewController.countries.modify : Swift.Array&lt;Swift.String&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Project2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gizemcoskun/Creative%20Cloud%20Files/SwiftApps/100-Days-Of-Swift/Project%202/Project2/Project2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "763F7EC2-05EC-475B-9C26-4CF971472297 - 1a32418ce4301f79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project2.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Project2.ViewController"
+                  moduleName = "Project2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gizemcoskun/Creative%20Cloud%20Files/SwiftApps/100-Days-Of-Swift/Project%202/Project2/Project2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "232">
+               </Location>
+               <Location
+                  uuid = "763F7EC2-05EC-475B-9C26-4CF971472297 - 104b88874fc3fe13"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project2.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Project2.ViewController&gt;"
+                  moduleName = "Project2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gizemcoskun/Creative%20Cloud%20Files/SwiftApps/100-Days-Of-Swift/Project%202/Project2/Project2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "208">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD1F59CB-5739-48D1-8B20-7396F2B546AC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Project2/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "DD1F59CB-5739-48D1-8B20-7396F2B546AC - 3ca4deb7909f5221"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project2.ViewController.correctAnswer.getter : Swift.Int"
+                  moduleName = "Project2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gizemcoskun/Creative%20Cloud%20Files/SwiftApps/100-Days-Of-Swift/Project%202/Project2/Project2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "DD1F59CB-5739-48D1-8B20-7396F2B546AC - ea234e63e6ff8615"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project2.ViewController.correctAnswer.setter : Swift.Int"
+                  moduleName = "Project2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gizemcoskun/Creative%20Cloud%20Files/SwiftApps/100-Days-Of-Swift/Project%202/Project2/Project2/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "DD1F59CB-5739-48D1-8B20-7396F2B546AC - 9cc208cffd19b122"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project2.ViewController.correctAnswer.modify : Swift.Int"
                   moduleName = "Project2"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/gizemcoskun/Creative%20Cloud%20Files/SwiftApps/100-Days-Of-Swift/Project%202/Project2/Project2/ViewController.swift"
@@ -65,11 +173,11 @@
                   offsetFromSymbolStart = "0">
                </Location>
                <Location
-                  uuid = "763F7EC2-05EC-475B-9C26-4CF971472297 - a3532e9e6b9991f0"
+                  uuid = "DD1F59CB-5739-48D1-8B20-7396F2B546AC - bf3e6e1a0496c515"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Project2.ViewController.countries.modify : Swift.Array&lt;Swift.String&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  symbolName = "Project2.ViewController.correctAnswer.modify : Swift.Int with unmangled suffix &quot;.resume.0&quot;"
                   moduleName = "Project2"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/gizemcoskun/Creative%20Cloud%20Files/SwiftApps/100-Days-Of-Swift/Project%202/Project2/Project2/ViewController.swift"
@@ -80,7 +188,7 @@
                   offsetFromSymbolStart = "16">
                </Location>
                <Location
-                  uuid = "763F7EC2-05EC-475B-9C26-4CF971472297 - 1a32418ce4301f58"
+                  uuid = "DD1F59CB-5739-48D1-8B20-7396F2B546AC - 1a32418ce4301f58"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -92,10 +200,10 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "18"
                   endingLineNumber = "18"
-                  offsetFromSymbolStart = "264">
+                  offsetFromSymbolStart = "284">
                </Location>
                <Location
-                  uuid = "763F7EC2-05EC-475B-9C26-4CF971472297 - 104b88874fc3fe32"
+                  uuid = "DD1F59CB-5739-48D1-8B20-7396F2B546AC - 104b88874fc3fe32"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -107,7 +215,7 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "18"
                   endingLineNumber = "18"
-                  offsetFromSymbolStart = "240">
+                  offsetFromSymbolStart = "260">
                </Location>
             </Locations>
          </BreakpointContent>
