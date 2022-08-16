@@ -12,7 +12,6 @@ class ViewController: UIViewController {
     @IBOutlet var button1: UIButton!
     @IBOutlet var button2: UIButton!
     @IBOutlet var button3: UIButton!
-    @IBOutlet var optionsContainer: UIVisualEffectView!
     @IBOutlet var scoreLabel: UILabel!
     
     var countries = [String]()
@@ -35,11 +34,7 @@ class ViewController: UIViewController {
         button1.layer.borderColor = UIColor.lightGray.cgColor
         button1.layer.cornerRadius = 16
         button1.clipsToBounds = true
-        
         askQuestion()
-        
-        optionsContainer.layer.cornerRadius = 32
-        optionsContainer.clipsToBounds = true
         
         
        
