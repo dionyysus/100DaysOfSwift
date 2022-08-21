@@ -24,6 +24,7 @@ class DetailViewController: UIViewController {
             imageView.image = UIImage(named: imageToLoad)
             let countryName = imageToLoad.split(separator: "@")
             title = String(countryName[0]).uppercased()
+            
         }
        
     }
