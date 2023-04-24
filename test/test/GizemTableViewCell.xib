@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GizemTableViewCell" id="KGk-i7-Jjw" customClass="GizemTableViewCell" customModule="test" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6p8-sl-IGU">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="URL Giriniz" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U1v-1J-X5d">
+                                <rect key="frame" x="8" y="5" width="202" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DV0-14-CHV">
+                                <rect key="frame" x="215" y="8" width="97" height="28"/>
+                                <color key="backgroundColor" red="0.48235297199999999" green="0.086274504660000001" blue="0.31372550129999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.85679409309999999" green="0.86290315129999995" blue="0.88123032599999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Devam Et"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="continueButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="IkU-qD-1Cw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80863322693892203" green="0.80863322693892203" blue="0.80863322693892203" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="DV0-14-CHV" secondAttribute="trailing" constant="8" id="6fW-ba-3sp"/>
+                            <constraint firstItem="U1v-1J-X5d" firstAttribute="top" secondItem="6p8-sl-IGU" secondAttribute="top" constant="5" id="7bZ-1v-j63"/>
+                            <constraint firstItem="U1v-1J-X5d" firstAttribute="leading" secondItem="6p8-sl-IGU" secondAttribute="leading" constant="8" id="FMY-Wb-MYC"/>
+                            <constraint firstAttribute="bottom" secondItem="U1v-1J-X5d" secondAttribute="bottom" constant="5" id="Hhe-Dt-cHH"/>
+                            <constraint firstItem="DV0-14-CHV" firstAttribute="leading" secondItem="U1v-1J-X5d" secondAttribute="trailing" constant="5" id="I2R-kG-3t4"/>
+                            <constraint firstAttribute="bottom" secondItem="DV0-14-CHV" secondAttribute="bottom" constant="8" id="krX-f3-ItQ"/>
+                            <constraint firstItem="DV0-14-CHV" firstAttribute="top" secondItem="6p8-sl-IGU" secondAttribute="top" constant="8" id="lLr-CZ-J6E"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="5"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="6p8-sl-IGU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="2KT-9f-qdS"/>
+                    <constraint firstAttribute="bottom" secondItem="6p8-sl-IGU" secondAttribute="bottom" id="Tzk-xI-hk8"/>
+                    <constraint firstAttribute="trailing" secondItem="6p8-sl-IGU" secondAttribute="trailing" id="sou-pg-TNM"/>
+                    <constraint firstItem="6p8-sl-IGU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="w2e-GF-uK2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="urlTextField" destination="U1v-1J-X5d" id="Fdz-Mr-elj"/>
+            </connections>
+            <point key="canvasLocation" x="-50" y="-25"/>
+        </tableViewCell>
+    </objects>
+</document>
